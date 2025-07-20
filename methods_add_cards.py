@@ -53,10 +53,10 @@ def add_cards_to_registry(
                     )
 
                     if node_df is not None:
-                        out_df = out_df.append(node_df, ignore_index=True)
+                        out_df = pd.concat([out_df, node_df], ignore_index=True)
 
                     out_df = (
-                        out_df.append(link_df, ignore_index=True)
+                        pd.concat([out_df, link_df], ignore_index=True)
                         .drop_duplicates()
                         .reset_index(drop=True)
                     )
@@ -252,7 +252,7 @@ def _update_registry(
                     "project_added": [card.project],
                 }
             )
-            subject_df = subject_df.append(updates_df)
+            subject_df = pd.concat([subject_df, updates_df])
         else:
             number = _find_available_id(
                 subject_word,
@@ -277,7 +277,7 @@ def _update_registry(
                     "project_added": [card.project],
                 }
             )
-            subject_df = subject_df.append(updates_df)
+            subject_df = pd.concat([subject_df, updates_df])
             write_updated_card = True
 
     return subject_df, write_updated_card, card
