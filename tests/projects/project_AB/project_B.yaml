@@ -1,0 +1,251 @@
+project: Grid_Cache_ 600EConnector
+tags: []
+dependencies: {}
+notes: ''
+changes:
+- roadway_addition:
+    links:
+    - A: 1982
+      B: 1303
+      DISTANCE: 0.67847
+      STREET: 50 E
+      ONEWAY: 2
+      LINKID: '1982_2359'
+      TAZID: 213
+      PATHGRP: 0
+      TRK_RSTRCT: 0
+      DISTEXCEPT: 0
+      RAILSPD: 0
+      HOV_LYEAR: 0
+      LN_2015: 1
+      LN_2019: 1
+      TRN_2015: 0
+      TRN_2019: 0
+      FT_2015: 6
+      FT_2019: 6
+      FT_P4_EOP3: 6
+      SFAC: 0.0
+      CFAC: 0
+      SCREN_SML: 0
+      SCREN_MED: 0
+      SCREN_LRG: 0
+      SCREN_MPO: 0
+      JEFF_EDIT: 0
+      UDOT_FC: Local
+      UDOTFCCODE: 7
+      UDOT_AT: Urban
+      TYPE: ''
+      PROJFLAG: 0
+      PROJ_ID_N: 0.0
+      GEOMETRYSO: 1
+      GEOMETRY_1: 1
+      SEGID: ''
+      TRNSFSRC: ''
+      JOINDIST: 0.0
+      NEW: 0
+      USE: 2
+      REMOVE: 0
+      SHAPE_LENG: 1341.5295
+      GEOMETRY_2: 1
+      GEOMETRY_3: 1
+      SHAPE_LE_1: 1341.5295
+      LN23_2028: 1
+      TRN23_2028: 0
+      FT23_2028: 6
+      PASSLANE: 0
+      SELGRP: 0
+      LN23_2032: 1
+      LN23_2042: 1
+      LN23_2050: 1
+      LN23_2032UF: 1
+      LN23_2042UF: 1
+      LN23_2050UF: 1
+      TL23_2032: 0
+      TL23_2042: 0
+      TL23_2050: 0
+      TL23_2032UF: 0
+      TL23_2042UF: 0
+      TL23_2050UF: 0
+      PL23_2032: 0
+      PL23_2042: 0
+      PL23_2050: 0
+      PL23_2032UF: 0
+      PL23_2042UF: 0
+      PL23_2050UF: 0
+      FT23_2032: 6
+      FT23_2042: 4
+      FT23_2050: 4
+      FT23_2032UF: 6
+      FT23_2042UF: 6
+      FT23_2050UF: 6
+      LN_2023: 1
+      FT_2023: 6
+      TRN_2023: 0
+      PL_2023: 0
+      LN_TMP: 1
+      TRN_TMP: 0
+      FT_TMP: 6
+      PL_TMP: 0
+      PROJECT_NUMBER: C48
+      model_link_id: 7902
+      lanes: 0
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      name: unknown
+      roadway: road
+    - A: 1303
+      B: 1982
+      DISTANCE: 0.67847
+      STREET: 50 E
+      ONEWAY: 2
+      LINKID: '1982_2359'
+      TAZID: 213
+      PATHGRP: 0
+      TRK_RSTRCT: 0
+      DISTEXCEPT: 0
+      RAILSPD: 0
+      HOV_LYEAR: 0
+      LN_2015: 1
+      LN_2019: 1
+      TRN_2015: 0
+      TRN_2019: 0
+      FT_2015: 6
+      FT_2019: 6
+      FT_P4_EOP3: 6
+      SFAC: 0.0
+      CFAC: 0
+      SCREN_SML: 0
+      SCREN_MED: 0
+      SCREN_LRG: 0
+      SCREN_MPO: 0
+      JEFF_EDIT: 0
+      UDOT_FC: Local
+      UDOTFCCODE: 7
+      UDOT_AT: Urban
+      TYPE: ''
+      PROJFLAG: 0
+      PROJ_ID_N: 0.0
+      GEOMETRYSO: 1
+      GEOMETRY_1: 1
+      SEGID: ''
+      TRNSFSRC: ''
+      JOINDIST: 0.0
+      NEW: 0
+      USE: 2
+      REMOVE: 0
+      SHAPE_LENG: 1341.5295
+      GEOMETRY_2: 1
+      GEOMETRY_3: 1
+      SHAPE_LE_1: 1341.5295
+      LN23_2028: 1
+      TRN23_2028: 0
+      FT23_2028: 6
+      PASSLANE: 0
+      SELGRP: 0
+      LN23_2032: 1
+      LN23_2042: 1
+      LN23_2050: 1
+      LN23_2032UF: 1
+      LN23_2042UF: 1
+      LN23_2050UF: 1
+      TL23_2032: 0
+      TL23_2042: 0
+      TL23_2050: 0
+      TL23_2032UF: 0
+      TL23_2042UF: 0
+      TL23_2050UF: 0
+      PL23_2032: 0
+      PL23_2042: 0
+      PL23_2050: 0
+      PL23_2032UF: 0
+      PL23_2042UF: 0
+      PL23_2050UF: 0
+      FT23_2032: 6
+      FT23_2042: 4
+      FT23_2050: 4
+      FT23_2032UF: 6
+      FT23_2042UF: 6
+      FT23_2050UF: 6
+      LN_2023: 1
+      FT_2023: 6
+      TRN_2023: 0
+      PL_2023: 0
+      LN_TMP: 1
+      TRN_TMP: 0
+      FT_TMP: 6
+      PL_TMP: 0
+      PROJECT_NUMBER: C48
+      model_link_id: 7903
+      lanes: 0
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      name: unknown
+      roadway: road
+- roadway_property_change:
+    property_changes:
+      PROJECT_NUMBER:
+        existing: ''
+        set: C48
+      JOINDIST:
+        existing: 1.41899
+        set: 1.419
+    facility:
+      links:
+        model_link_id:
+        - 2805
+        - 3924
+        modes:
+        - any
+        ignore_missing: true
+- roadway_property_change:
+    property_changes:
+      SHAPE_LENG:
+        existing: 1341.52954
+        set: 1341.5295
+      PROJECT_NUMBER:
+        existing: ''
+        set: C48
+      FT23_2050:
+        existing: 6
+        set: 4
+      SHAPE_LE_1:
+        existing: 1341.52954
+        set: 1341.5295
+      FT23_2042:
+        existing: 6
+        set: 4
+    facility:
+      links:
+        model_link_id:
+        - 5213
+        - 6439
+        modes:
+        - any
+        ignore_missing: true
+- roadway_property_change:
+    property_changes:
+      SHAPE_LENG:
+        existing: 1435.72412
+        set: 1435.7241
+      PROJECT_NUMBER:
+        existing: ''
+        set: C48
+      FT23_2050:
+        existing: 6
+        set: 4
+      SHAPE_LE_1:
+        existing: 1435.72412
+        set: 1435.7241
+      FT23_2042:
+        existing: 6
+        set: 4
+    facility:
+      links:
+        model_link_id:
+        - 3895
+        - 6438
+        modes:
+        - any
+        ignore_missing: true
