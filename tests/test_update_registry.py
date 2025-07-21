@@ -40,23 +40,21 @@ def test_update_registry(request):
     )
 
     data = [
-        ["node", 1001, "Project B"],
-        ["node", 1002, "Project B"],
-        ["node", 1003, "Project A"],
-        ["node", 1004, "Project A"],
-        ["link", 501, "Project B"],
-        ["link", 502, "Project A"],
+        ["node", 5272, "Grid_Cache_ 200 E to Smithfield (Alt 2) - BL"],
+        ["link", 7902, "Grid_Cache_ 200 E to Smithfield (Alt 2) - BL"],
+        ["link", 7903, "Grid_Cache_ 200 E to Smithfield (Alt 2) - BL"],
+        ["link", 7904, "Grid_Cache_ 600EConnector"],
+        ["link", 7905, "Grid_Cache_ 600EConnector"],
     ]
     target_i_df = pd.DataFrame(data, columns=["type", "id", "project_added"])
     target_i_df = target_i_df.sort_values(by=["type", "id"]).reset_index(drop=True)
 
     data = [
-        ["node", 1001, "Project A"],
-        ["node", 1002, "Project A"],
-        ["node", 1003, "Project B"],
-        ["node", 1004, "Project B"],
-        ["link", 501, "Project A"],
-        ["link", 502, "Project B"],
+        ["node", 5272, "Grid_Cache_ 200 E to Smithfield (Alt 2) - BL"],
+        ["link", 7904, "Grid_Cache_ 200 E to Smithfield (Alt 2) - BL"],
+        ["link", 7905, "Grid_Cache_ 200 E to Smithfield (Alt 2) - BL"],
+        ["link", 7902, "Grid_Cache_ 600EConnector"],
+        ["link", 7903, "Grid_Cache_ 600EConnector"],
     ]
     target_ii_df = pd.DataFrame(data, columns=["type", "id", "project_added"])
     target_ii_df = target_ii_df.sort_values(by=["type", "id"]).reset_index(drop=True)
@@ -84,9 +82,8 @@ def test_update_registry_existing(request):
     input_file = "test_input_registry.csv"
     output_file = "test_update_registry.csv"
     data = [
-        ["node", 1001, "Project Z"],
-        ["node", 1002, "Project Z"],
-        ["link", 501, "Project Z"],
+        ["node", 5272, "Project Z"],
+        ["link", 7902, "Project Z"],
     ]
     input_df = pd.DataFrame(data, columns=["type", "id", "project_added"])
     input_df.to_csv(input_file, index=False)
@@ -100,29 +97,25 @@ def test_update_registry_existing(request):
     )
 
     data = [
-        ["node", 1001, "Project Z"],
-        ["node", 1002, "Project Z"],
-        ["link", 501, "Project Z"],
-        ["node", 1003, "Project B"],
-        ["node", 1004, "Project B"],
-        ["node", 1005, "Project A"],
-        ["node", 1006, "Project A"],
-        ["link", 502, "Project B"],
-        ["link", 503, "Project A"],
+        ["node", 5272, "Project Z"],
+        ["link", 7902, "Project Z"],
+        ["node", 5273, "Grid_Cache_ 200 E to Smithfield (Alt 2) - BL"],
+        ["link", 7903, "Grid_Cache_ 200 E to Smithfield (Alt 2) - BL"],
+        ["link", 7904, "Grid_Cache_ 200 E to Smithfield (Alt 2) - BL"],
+        ["link", 7905, "Grid_Cache_ 600EConnector"],
+        ["link", 7906, "Grid_Cache_ 600EConnector"],
     ]
     target_i_df = pd.DataFrame(data, columns=["type", "id", "project_added"])
     target_i_df = target_i_df.sort_values(by=["type", "id"]).reset_index(drop=True)
 
     data = [
-        ["node", 1001, "Project Z"],
-        ["node", 1002, "Project Z"],
-        ["link", 501, "Project Z"],
-        ["node", 1003, "Project A"],
-        ["node", 1004, "Project A"],
-        ["node", 1005, "Project B"],
-        ["node", 1006, "Project B"],
-        ["link", 502, "Project A"],
-        ["link", 503, "Project B"],
+        ["node", 5272, "Project Z"],
+        ["link", 7902, "Project Z"],
+        ["node", 5273, "Grid_Cache_ 200 E to Smithfield (Alt 2) - BL"],
+        ["link", 7905, "Grid_Cache_ 200 E to Smithfield (Alt 2) - BL"],
+        ["link", 7906, "Grid_Cache_ 200 E to Smithfield (Alt 2) - BL"],
+        ["link", 7903, "Grid_Cache_ 600EConnector"],
+        ["link", 7904, "Grid_Cache_ 600EConnector"],
     ]
     target_ii_df = pd.DataFrame(data, columns=["type", "id", "project_added"])
     target_ii_df = target_ii_df.sort_values(by=["type", "id"]).reset_index(drop=True)
@@ -151,12 +144,11 @@ def test_update_registry_no_new_projects(request):
     output_file = "test_update_registry.csv"
 
     data = [
-        ["node", 1001, "Project B"],
-        ["node", 1002, "Project B"],
-        ["node", 1003, "Project A"],
-        ["node", 1004, "Project A"],
-        ["link", 501, "Project B"],
-        ["link", 502, "Project A"],
+        ["node", 5272, "Grid_Cache_ 200 E to Smithfield (Alt 2) - BL"],
+        ["link", 7904, "Grid_Cache_ 200 E to Smithfield (Alt 2) - BL"],
+        ["link", 7905, "Grid_Cache_ 200 E to Smithfield (Alt 2) - BL"],
+        ["link", 7902, "Grid_Cache_ 600EConnector"],
+        ["link", 7903, "Grid_Cache_ 600EConnector"],
     ]
     input_df = pd.DataFrame(data, columns=["type", "id", "project_added"])
     input_df.to_csv(input_file, index=False)
@@ -170,23 +162,21 @@ def test_update_registry_no_new_projects(request):
     )
 
     data = [
-        ["node", 1001, "Project B"],
-        ["node", 1002, "Project B"],
-        ["node", 1003, "Project A"],
-        ["node", 1004, "Project A"],
-        ["link", 501, "Project B"],
-        ["link", 502, "Project A"],
+        ["node", 5272, "Grid_Cache_ 200 E to Smithfield (Alt 2) - BL"],
+        ["link", 7904, "Grid_Cache_ 200 E to Smithfield (Alt 2) - BL"],
+        ["link", 7905, "Grid_Cache_ 200 E to Smithfield (Alt 2) - BL"],
+        ["link", 7902, "Grid_Cache_ 600EConnector"],
+        ["link", 7903, "Grid_Cache_ 600EConnector"],
     ]
     target_i_df = pd.DataFrame(data, columns=["type", "id", "project_added"])
     target_i_df = target_i_df.sort_values(by=["type", "id"]).reset_index(drop=True)
 
     data = [
-        ["node", 1001, "Project A"],
-        ["node", 1002, "Project A"],
-        ["node", 1003, "Project B"],
-        ["node", 1004, "Project B"],
-        ["link", 501, "Project A"],
-        ["link", 502, "Project B"],
+        ["node", 5272, "Grid_Cache_ 200 E to Smithfield (Alt 2) - BL"],
+        ["link", 7902, "Grid_Cache_ 200 E to Smithfield (Alt 2) - BL"],
+        ["link", 7903, "Grid_Cache_ 200 E to Smithfield (Alt 2) - BL"],
+        ["link", 7904, "Grid_Cache_ 600EConnector"],
+        ["link", 7905, "Grid_Cache_ 600EConnector"],
     ]
     target_ii_df = pd.DataFrame(data, columns=["type", "id", "project_added"])
     target_ii_df = target_ii_df.sort_values(by=["type", "id"]).reset_index(drop=True)
@@ -216,12 +206,10 @@ def test_read_write_project_card(request):
 
     card = read_card(card_file, validate=True)
     card.__dict__.pop("file")
-    card.__dict__.pop("valid")
-    write_card(filename=output_file)
+    write_card(card, filename=output_file)
 
     card_from_disk = read_card(output_file, validate=False)
     card_from_disk.__dict__.pop("file")
-    card_from_disk.__dict__.pop("valid")
 
     os.remove(output_file)
 
@@ -248,7 +236,8 @@ def test_update_registry_no_new_nodes(request):
     )
 
     data = [
-        ["link", 501, "Project C"],
+        ["link", 7902, "Grid_Cache_ 600EConnector"],
+        ["link", 7903, "Grid_Cache_ 600EConnector"],
     ]
 
     target_df = pd.DataFrame(data, columns=["type", "id", "project_added"])
