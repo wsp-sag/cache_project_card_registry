@@ -4,6 +4,8 @@ import inspect
 import pytest
 import pandas as pd
 
+from pathlib import Path
+
 from projectcard import ProjectCard
 from projectcard import write_card, read_card
 
@@ -206,7 +208,7 @@ def test_read_write_project_card(request):
 
     card = read_card(card_file, validate=True)
     card.__dict__.pop("file")
-    write_card(card, filename=output_file)
+    write_card(card, filename=Path(output_file))
 
     card_from_disk = read_card(output_file, validate=False)
     card_from_disk.__dict__.pop("file")
