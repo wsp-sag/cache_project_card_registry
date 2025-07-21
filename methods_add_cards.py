@@ -2,6 +2,9 @@ from os import write
 from numpy import True_
 import pandas as pd
 from typing import Tuple
+
+from pathlib import Path
+
 from projectcard import ProjectCard
 from projectcard import write_card
 
@@ -67,7 +70,7 @@ def add_cards_to_registry(
                                 card.__dict__.pop("file")
                             if "valid" in card.__dict__:
                                 card.__dict__.pop("valid")
-                            write_card(filename=filename)
+                            write_card(card, filename=Path(filename))
 
     return out_df
 
