@@ -185,12 +185,12 @@ changes:
       roadway: road
 - roadway_property_change:
     property_changes:
-      PROJECT_NUMBER:
-        existing: ''
-        set: C48
       JOINDIST:
         existing: 1.41899
         set: 1.419
+      PROJECT_NUMBER:
+        existing: ''
+        set: C48
     facility:
       links:
         model_link_id:
@@ -201,21 +201,21 @@ changes:
         ignore_missing: true
 - roadway_property_change:
     property_changes:
-      SHAPE_LENG:
-        existing: 1341.52954
-        set: 1341.5295
-      PROJECT_NUMBER:
-        existing: ''
-        set: C48
-      FT23_2050:
-        existing: 6
-        set: 4
       SHAPE_LE_1:
         existing: 1341.52954
         set: 1341.5295
+      FT23_2050:
+        existing: 6
+        set: 4
       FT23_2042:
         existing: 6
         set: 4
+      PROJECT_NUMBER:
+        existing: ''
+        set: C48
+      SHAPE_LENG:
+        existing: 1341.52954
+        set: 1341.5295
     facility:
       links:
         model_link_id:
@@ -226,21 +226,21 @@ changes:
         ignore_missing: true
 - roadway_property_change:
     property_changes:
-      SHAPE_LENG:
-        existing: 1435.72412
-        set: 1435.7241
-      PROJECT_NUMBER:
-        existing: ''
-        set: C48
-      FT23_2050:
-        existing: 6
-        set: 4
       SHAPE_LE_1:
         existing: 1435.72412
         set: 1435.7241
+      FT23_2050:
+        existing: 6
+        set: 4
       FT23_2042:
         existing: 6
         set: 4
+      PROJECT_NUMBER:
+        existing: ''
+        set: C48
+      SHAPE_LENG:
+        existing: 1435.72412
+        set: 1435.7241
     facility:
       links:
         model_link_id:
