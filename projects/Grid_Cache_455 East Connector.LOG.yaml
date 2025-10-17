@@ -87,7 +87,7 @@ changes:
       FT_TMP: 6
       PL_TMP: 0
       PROJECT_NUMBER: C47
-      model_link_id: 7902
+      model_link_id: 7956
       lanes: 0
       drive_access: 1
       walk_access: 1
@@ -176,7 +176,7 @@ changes:
       FT_TMP: 6
       PL_TMP: 0
       PROJECT_NUMBER: C47
-      model_link_id: 7903
+      model_link_id: 7957
       lanes: 0
       drive_access: 1
       walk_access: 1
@@ -265,7 +265,7 @@ changes:
       FT_TMP: 6
       PL_TMP: 0
       PROJECT_NUMBER: C47
-      model_link_id: 7904
+      model_link_id: 7958
       lanes: 0
       drive_access: 1
       walk_access: 1
@@ -354,7 +354,7 @@ changes:
       FT_TMP: 6
       PL_TMP: 0
       PROJECT_NUMBER: C47
-      model_link_id: 7905
+      model_link_id: 7959
       lanes: 0
       drive_access: 1
       walk_access: 1
@@ -443,7 +443,7 @@ changes:
       FT_TMP: 6
       PL_TMP: 0
       PROJECT_NUMBER: C47
-      model_link_id: 7906
+      model_link_id: 7960
       lanes: 0
       drive_access: 1
       walk_access: 1
@@ -532,7 +532,7 @@ changes:
       FT_TMP: 6
       PL_TMP: 0
       PROJECT_NUMBER: C47
-      model_link_id: 7907
+      model_link_id: 7961
       lanes: 0
       drive_access: 1
       walk_access: 1
@@ -621,7 +621,7 @@ changes:
       FT_TMP: 6
       PL_TMP: 0
       PROJECT_NUMBER: C47
-      model_link_id: 7908
+      model_link_id: 7962
       lanes: 0
       drive_access: 1
       walk_access: 1
@@ -710,7 +710,7 @@ changes:
       FT_TMP: 6
       PL_TMP: 0
       PROJECT_NUMBER: C47
-      model_link_id: 7909
+      model_link_id: 7963
       lanes: 0
       drive_access: 1
       walk_access: 1
@@ -771,165 +771,15 @@ changes:
       PROJ: ''
 - roadway_property_change:
     property_changes:
-      SHAPE_LE_1:
-        existing: 1023.94751
-        set: 1023.9475
+      PROJECT_NUMBER:
+        existing: ''
+        set: C47
       FT23_2050:
         existing: 6
         set: 5
       FT23_2042:
         existing: 6
         set: 5
-      PROJECT_NUMBER:
-        existing: ''
-        set: C47
-      SHAPE_LENG:
-        existing: 1023.94751
-        set: 1023.9475
-    facility:
-      links:
-        model_link_id:
-        - 3318
-        - 3788
-        modes:
-        - any
-        ignore_missing: true
-- roadway_property_change:
-    property_changes:
-      SHAPE_LE_1:
-        existing: 1033.63257
-        set: 1033.6326
-      FT23_2050:
-        existing: 6
-        set: 5
-      FT23_2042:
-        existing: 6
-        set: 5
-      PROJECT_NUMBER:
-        existing: ''
-        set: C47
-      SHAPE_LENG:
-        existing: 1033.63257
-        set: 1033.6326
-    facility:
-      links:
-        model_link_id:
-        - 5842
-        - 7300
-        modes:
-        - any
-        ignore_missing: true
-- roadway_property_change:
-    property_changes:
-      SHAPE_LE_1:
-        existing: 1358.38745
-        set: 1358.3875
-      FT23_2050:
-        existing: 6
-        set: 5
-      FT23_2042:
-        existing: 6
-        set: 5
-      PROJECT_NUMBER:
-        existing: ''
-        set: C47
-      SHAPE_LENG:
-        existing: 1358.38745
-        set: 1358.3875
-    facility:
-      links:
-        model_link_id:
-        - 3845
-        - 5849
-        modes:
-        - any
-        ignore_missing: true
-- roadway_property_change:
-    property_changes:
-      SHAPE_LE_1:
-        existing: 1413.47485
-        set: 1413.4749
-      FT23_2050:
-        existing: 6
-        set: 5
-      FT23_2042:
-        existing: 6
-        set: 5
-      PROJECT_NUMBER:
-        existing: ''
-        set: C47
-      SHAPE_LENG:
-        existing: 1413.47485
-        set: 1413.4749
-    facility:
-      links:
-        model_link_id:
-        - 3335
-        - 3835
-        modes:
-        - any
-        ignore_missing: true
-- roadway_property_change:
-    property_changes:
-      SHAPE_LE_1:
-        existing: 1450.98523
-        set: 1450.9852
-      FT23_2050:
-        existing: 6
-        set: 5
-      FT23_2042:
-        existing: 6
-        set: 5
-      PROJECT_NUMBER:
-        existing: ''
-        set: C47
-      SHAPE_LENG:
-        existing: 1450.98523
-        set: 1450.9852
-    facility:
-      links:
-        model_link_id:
-        - 5843
-        - 7435
-        modes:
-        - any
-        ignore_missing: true
-- roadway_property_change:
-    property_changes:
-      SHAPE_LE_1:
-        existing: 322.29446
-        set: 322.2945
-      FT23_2050:
-        existing: 6
-        set: 5
-      FT23_2042:
-        existing: 6
-        set: 5
-      PROJECT_NUMBER:
-        existing: ''
-        set: C47
-      SHAPE_LENG:
-        existing: 322.29446
-        set: 322.2945
-    facility:
-      links:
-        model_link_id:
-        - 5850
-        - 7301
-        modes:
-        - any
-        ignore_missing: true
-- roadway_property_change:
-    property_changes:
-      FT23_2050:
-        existing: 6
-        set: 5
-      FT23_2042:
-        existing: 6
-        set: 5
-      PROJECT_NUMBER:
-        existing: ''
-        set: C47
     facility:
       links:
         model_link_id:
@@ -940,21 +790,171 @@ changes:
         ignore_missing: true
 - roadway_property_change:
     property_changes:
-      SHAPE_LE_1:
-        existing: 600.50897
-        set: 600.509
-      FT23_2050:
-        existing: 6
-        set: 5
-      FT23_2042:
-        existing: 6
-        set: 5
+      SHAPE_LENG:
+        existing: 1023.94751
+        set: 1023.9475
       PROJECT_NUMBER:
         existing: ''
         set: C47
+      FT23_2050:
+        existing: 6
+        set: 5
+      SHAPE_LE_1:
+        existing: 1023.94751
+        set: 1023.9475
+      FT23_2042:
+        existing: 6
+        set: 5
+    facility:
+      links:
+        model_link_id:
+        - 3318
+        - 3788
+        modes:
+        - any
+        ignore_missing: true
+- roadway_property_change:
+    property_changes:
+      SHAPE_LENG:
+        existing: 1033.63257
+        set: 1033.6326
+      PROJECT_NUMBER:
+        existing: ''
+        set: C47
+      FT23_2050:
+        existing: 6
+        set: 5
+      SHAPE_LE_1:
+        existing: 1033.63257
+        set: 1033.6326
+      FT23_2042:
+        existing: 6
+        set: 5
+    facility:
+      links:
+        model_link_id:
+        - 5842
+        - 7300
+        modes:
+        - any
+        ignore_missing: true
+- roadway_property_change:
+    property_changes:
+      SHAPE_LENG:
+        existing: 1358.38745
+        set: 1358.3875
+      PROJECT_NUMBER:
+        existing: ''
+        set: C47
+      FT23_2050:
+        existing: 6
+        set: 5
+      SHAPE_LE_1:
+        existing: 1358.38745
+        set: 1358.3875
+      FT23_2042:
+        existing: 6
+        set: 5
+    facility:
+      links:
+        model_link_id:
+        - 3845
+        - 5849
+        modes:
+        - any
+        ignore_missing: true
+- roadway_property_change:
+    property_changes:
+      SHAPE_LENG:
+        existing: 1413.47485
+        set: 1413.4749
+      PROJECT_NUMBER:
+        existing: ''
+        set: C47
+      FT23_2050:
+        existing: 6
+        set: 5
+      SHAPE_LE_1:
+        existing: 1413.47485
+        set: 1413.4749
+      FT23_2042:
+        existing: 6
+        set: 5
+    facility:
+      links:
+        model_link_id:
+        - 3335
+        - 3835
+        modes:
+        - any
+        ignore_missing: true
+- roadway_property_change:
+    property_changes:
+      SHAPE_LENG:
+        existing: 1450.98523
+        set: 1450.9852
+      PROJECT_NUMBER:
+        existing: ''
+        set: C47
+      FT23_2050:
+        existing: 6
+        set: 5
+      SHAPE_LE_1:
+        existing: 1450.98523
+        set: 1450.9852
+      FT23_2042:
+        existing: 6
+        set: 5
+    facility:
+      links:
+        model_link_id:
+        - 5843
+        - 7435
+        modes:
+        - any
+        ignore_missing: true
+- roadway_property_change:
+    property_changes:
+      SHAPE_LENG:
+        existing: 322.29446
+        set: 322.2945
+      PROJECT_NUMBER:
+        existing: ''
+        set: C47
+      FT23_2050:
+        existing: 6
+        set: 5
+      SHAPE_LE_1:
+        existing: 322.29446
+        set: 322.2945
+      FT23_2042:
+        existing: 6
+        set: 5
+    facility:
+      links:
+        model_link_id:
+        - 5850
+        - 7301
+        modes:
+        - any
+        ignore_missing: true
+- roadway_property_change:
+    property_changes:
       SHAPE_LENG:
         existing: 600.50897
         set: 600.509
+      PROJECT_NUMBER:
+        existing: ''
+        set: C47
+      FT23_2050:
+        existing: 6
+        set: 5
+      SHAPE_LE_1:
+        existing: 600.50897
+        set: 600.509
+      FT23_2042:
+        existing: 6
+        set: 5
     facility:
       links:
         model_link_id:
@@ -965,21 +965,21 @@ changes:
         ignore_missing: true
 - roadway_property_change:
     property_changes:
-      SHAPE_LE_1:
-        existing: 781.73511
-        set: 781.7351
-      FT23_2050:
-        existing: 6
-        set: 5
-      FT23_2042:
-        existing: 6
-        set: 5
-      PROJECT_NUMBER:
-        existing: ''
-        set: C47
       SHAPE_LENG:
         existing: 781.73511
         set: 781.7351
+      PROJECT_NUMBER:
+        existing: ''
+        set: C47
+      FT23_2050:
+        existing: 6
+        set: 5
+      SHAPE_LE_1:
+        existing: 781.73511
+        set: 781.7351
+      FT23_2042:
+        existing: 6
+        set: 5
     facility:
       links:
         model_link_id:
@@ -990,21 +990,21 @@ changes:
         ignore_missing: true
 - roadway_property_change:
     property_changes:
-      SHAPE_LE_1:
-        existing: 843.96967
-        set: 843.9697
-      FT23_2050:
-        existing: 6
-        set: 5
-      FT23_2042:
-        existing: 6
-        set: 5
-      PROJECT_NUMBER:
-        existing: ''
-        set: C47
       SHAPE_LENG:
         existing: 843.96967
         set: 843.9697
+      PROJECT_NUMBER:
+        existing: ''
+        set: C47
+      FT23_2050:
+        existing: 6
+        set: 5
+      SHAPE_LE_1:
+        existing: 843.96967
+        set: 843.9697
+      FT23_2042:
+        existing: 6
+        set: 5
     facility:
       links:
         model_link_id:
