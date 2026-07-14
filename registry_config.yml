@@ -1,7 +1,7 @@
 minimum_allowable_node_id: 1
-maximum_allowable_node_id: 10000
+maximum_allowable_node_id: 100000
 minimum_allowable_link_id: 1
-maximum_allowable_link_id: 10000
+maximum_allowable_link_id: 100000
 nodes_used_by_geography:
   - geography_name: All
     start: 0
